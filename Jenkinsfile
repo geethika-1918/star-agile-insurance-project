@@ -14,7 +14,7 @@ pipeline {
         stage('Git Checkout') {
             steps {
                 echo 'Cloning the Git repository'
-                git branch: 'main', url: 'https://github.com/geethika-1918/star-agile-insurance-project.git'
+                git branch: 'master', url: 'https://github.com/geethika-1918/star-agile-insurance-project.git'
             }
         }
 
